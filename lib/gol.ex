@@ -13,7 +13,7 @@ defmodule Gol do
     IO.puts " done"
     
 
-    IO.write "Setting neighbours"
+    IO.write "Setting neighbours for #{length agents} agents"
     set_neighbours(agents)
     IO.puts " done"
     
